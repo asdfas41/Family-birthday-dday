@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffb6c1, #b8c8ff);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px #0002;
+}
+
+h1 {
+    font-size: 25px;
+    color: #6955a5;
+}
+
+#today {
+    margin: 20px 0;
+    color: #777;
+}
+
+.birthday-card {
+    padding: 20px;
+    margin: 18px 0;
+    border-radius: 18px;
+}
+
+.mom {
+    background: #fff0f3;
+}
+
+.dad {
+    background: #eef2ff;
+}
+
+.birthday-card h2 {
+    margin-top: 0;
+}
+
+.birthday-card p {
+    color: #777;
+}
+
+.birthday-card div {
+    font-size: 38px;
+    font-weight: bold;
+    color: #6955a5;
+}
+
+.message-section {
+    margin-top: 25px;
+}
+
+#customMessage {
+    width: 100%;
+    min-height: 90px;
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 15px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-top: 15px;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 12px;
+    background: #7564b8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5c4a9e;
+}
+
+#copyText {
+    white-space: pre-line;
+    line-height: 1.7;
+}
